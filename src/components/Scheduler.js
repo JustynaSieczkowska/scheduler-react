@@ -214,7 +214,7 @@ const SchedulerComponent = () => {
           label={locale === 'pl-PL' ? 'Wybierz język' : 'Select Language'}
           value={locale}
           onChange={(event) => setLocale(event.target.value)}
-          style={{ marginBottom: '20px' }}
+          style={{width: '100px', marginTop: '20px', marginBottom: '20px' }}
         >
           <MenuItem value="pl-PL">Polski</MenuItem>
           <MenuItem value="en-US">English</MenuItem>
